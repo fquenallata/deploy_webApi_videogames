@@ -4,6 +4,8 @@ import Detail from "./views/Detail/Detail.component.jsx";
 import Landing from "./views/Landing/Landing.component.jsx";
 import Create from "./views/Create/Create.component.jsx";
 import { Routes, Route } from "react-router-dom";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001";
 function App() {
   return (
     <>
