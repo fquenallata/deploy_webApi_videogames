@@ -1,0 +1,9 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-bottom: 1px black solid;
+}
