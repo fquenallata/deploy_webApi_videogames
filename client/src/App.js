@@ -5,7 +5,8 @@ import Landing from "./views/Landing/Landing.component.jsx";
 import Create from "./views/Create/Create.component.jsx";
 import { Routes, Route } from "react-router-dom";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL =
+  "https://deploywebapivideogames-production.up.railway.app";
 function App() {
   return (
     <>
